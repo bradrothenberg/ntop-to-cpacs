@@ -174,3 +174,12 @@ CPACS sources: [official website](https://dlr-sl.github.io/cpacs-website/) and
 [3.5.1 schema](https://www.cpacs.de/schema/v3_5_1/cpacs_schema.xsd).
 The schema is unchanged. A wrapper imports the typed nTop tool extension.
 See [third-party notices](THIRD_PARTY_NOTICES.md).
+
+## License
+
+The original connector code, authored example models, reports, and documentation
+use the [MIT License](LICENSE), subject to the [license scope](LICENSE_SCOPE.md).
+This does not license nTop itself. nTop software, API/runtime implementations,
+trademarks, logos, document style assets, fonts, and other third-party material
+remain under their separate terms. Running the native workflow requires licensed
+nTop software. The CPACS schema retains its Apache-2.0 license.

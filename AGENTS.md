@@ -16,3 +16,6 @@ Use nTop blue (#16489D) for report accents and the changed-geometry series. This
 The user authorized publication of this project as the public GitHub repository ntop-to-cpacs.
 Publish a curated reproducible example. Keep credentials, local process receipts, failed experiments,
 personal machine paths, and licensed font files out of the public repository.
+License the authored project code, example models, and documentation under MIT.
+Exclude nTop software, its API/runtime implementations, branding, fonts, and other third-party material from that grant.
+Preserve their separate licenses and state this scope in the source repository and community package.
