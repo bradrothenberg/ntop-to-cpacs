@@ -1,0 +1,100 @@
+{
+  "baseline": {
+    "source_sha256": "583aa49caabccea84ec296f416ef19829b54a82ac6c7ee47479969e015ffe9db",
+    "source_unchanged": true,
+    "camera": {
+      "isPersp": false,
+      "eyePoint": {
+        "x": -6.417855872573786,
+        "y": -11.147902464746743,
+        "z": 11.190496620008023
+      },
+      "viewDirection": {
+        "x": 0.5773502691896258,
+        "y": 0.5773502691896258,
+        "z": -0.5773502691896258
+      },
+      "worldUp": {
+        "x": 0.4082482904638631,
+        "y": 0.4082482904638631,
+        "z": 0.8164965809277261
+      },
+      "orientation": {
+        "x": 0.42470820027786693,
+        "y": -0.1759198966061612,
+        "z": -0.33985114297998736,
+        "w": 0.8204732385702833
+      },
+      "pivotDistance": 18.615810993573973,
+      "nearClip": 14.116059165021184,
+      "farClip": 23.136570842992892,
+      "left": -3.49579599181921,
+      "right": 3.5041728343252663,
+      "bottom": -2.0674112656201413,
+      "top": 2.0729958272908466
+    },
+    "camera_origin": "requested_custom_camera",
+    "display_mode": "geometry_only",
+    "limitations": [
+      "Saved-file state only. Unsaved changes and the current live camera are not captured.",
+      "Geometry-only screenshot: grid, overlays, selection highlights, and background are disabled.",
+      "Active section cuts are not read. An explicit requested plane uses native shaded section rendering.",
+      "Field views and surface analysis are not reproduced by this adapter.",
+      "Opening a notebook can evaluate its blocks. External file export side effects are not prevented.",
+      "Native screenshot commands are internal and must be revalidated after an nTop update."
+    ],
+    "image_sha256": "3c8c9f3a9546218874f68b6eeb20327e5757aa0db49f362ea15ae2f497959ef6",
+    "source": "baseline-working.ntop",
+    "image": "baseline-native.png",
+    "renderer_version": "6.2.2.0"
+  },
+  "changed": {
+    "source_sha256": "02054e2bd026a40ba1f2051fe7f27dd05a1c4984820f36945987ddc5b2b54523",
+    "source_unchanged": true,
+    "camera": {
+      "isPersp": false,
+      "eyePoint": {
+        "x": -6.417855872573786,
+        "y": -11.147902464746743,
+        "z": 11.190496620008023
+      },
+      "viewDirection": {
+        "x": 0.5773502691896258,
+        "y": 0.5773502691896258,
+        "z": -0.5773502691896258
+      },
+      "worldUp": {
+        "x": 0.4082482904638631,
+        "y": 0.4082482904638631,
+        "z": 0.8164965809277261
+      },
+      "orientation": {
+        "x": 0.42470820027786693,
+        "y": -0.1759198966061612,
+        "z": -0.33985114297998736,
+        "w": 0.8204732385702833
+      },
+      "pivotDistance": 18.615810993573973,
+      "nearClip": 14.116059165021184,
+      "farClip": 23.136570842992892,
+      "left": -3.49579599181921,
+      "right": 3.5041728343252663,
+      "bottom": -2.0674112656201413,
+      "top": 2.0729958272908466
+    },
+    "camera_origin": "requested_custom_camera",
+    "display_mode": "geometry_only",
+    "limitations": [
+      "Saved-file state only. Unsaved changes and the current live camera are not captured.",
+      "Geometry-only screenshot: grid, overlays, selection highlights, and background are disabled.",
+      "Active section cuts are not read. An explicit requested plane uses native shaded section rendering.",
+      "Field views and surface analysis are not reproduced by this adapter.",
+      "Opening a notebook can evaluate its blocks. External file export side effects are not prevented.",
+      "Native screenshot commands are internal and must be revalidated after an nTop update."
+    ],
+    "image_sha256": "c7c95de0970c28e1133e29683ba725f806ec2bc29e1a15c4357cb7b219b64aa3",
+    "source": "changed-working.ntop",
+    "image": "changed-native.png",
+    "renderer_version": "6.2.2.0"
+  }
+}

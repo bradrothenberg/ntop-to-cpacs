@@ -1,0 +1,16 @@
+{
+  "sample_count": 11001,
+  "step_m": 0.00025,
+  "angle_formula_error_rad": 6.938893903907228e-18,
+  "protected_zone_max_scalar_error": 0.0,
+  "outer_zone_max_scalar_error": 0.0,
+  "baseline_reversion_max_scalar_error": 0.0,
+  "protected_zone_end_m": 0.3055,
+  "transition_end_m": 1.0,
+  "old_root_peak_additional_placement_slope": 0.27650767954076444,
+  "repaired_root_peak_additional_placement_slope": 1.3652273755937472e-11,
+  "root_added_displacement_at_gate_end_mm": -11.614159628234482,
+  "continuity": "The C3 polynomial and its first three derivatives match the constant branches at both endpoints.",
+  "scope": "Independent scalar construction check. Native surface validation is separate.",
+  "passed": true
+}

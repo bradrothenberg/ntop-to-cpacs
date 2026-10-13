@@ -1,0 +1,14 @@
+{
+  "added_variables": [],
+  "airframe_state": {
+    "blockId": "GBI airframe | simplified section placement v38",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "seconds": 13.911255100014387,
+  "recipe_sha256": "9c2bc3c6d758b8047dca6659bf5b454532ea4c5f578a14665780f4d851e6e970",
+  "notebook_sha256": "583aa49caabccea84ec296f416ef19829b54a82ac6c7ee47479969e015ffe9db",
+  "transition_start_m": 0.3055,
+  "transition_end_m": 1.0,
+  "reference_tip_twist_deg": 2.0
+}

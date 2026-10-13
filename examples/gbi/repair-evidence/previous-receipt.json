@@ -1,0 +1,12 @@
+{
+  "source": "changed-working.ntop",
+  "source_sha256": "b8fcf269865b562f9098e1b536d3c6f74197df469a67c7fde50dca2a1b5be975",
+  "engine_sha256": "16ddee545fbf712f60664e6d242c59e96b45966794e3c5ce8b4544c7377030b6",
+  "points": 288,
+  "fields": [
+    "placement",
+    "airframe"
+  ],
+  "seconds": 36.97699680001824,
+  "finite": true
+}

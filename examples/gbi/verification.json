@@ -1,0 +1,996 @@
+{
+  "source_unchanged": true,
+  "api_apply": {
+    "from_cpacs": "request.xml",
+    "request_sha256": "1cd7ef6627c413e46af20346df68a545660038e1e863c22669a050308233bfb3",
+    "parameter": "Tip twist",
+    "before": {
+      "type": "real",
+      "value": 2.0,
+      "units": "deg"
+    },
+    "after": {
+      "type": "real",
+      "value": 4.0,
+      "units": "deg"
+    },
+    "field_before": {
+      "type": "real",
+      "value": 4.3425703713736275e-05,
+      "units": "in"
+    },
+    "field_after": {
+      "type": "real",
+      "value": 1.4949270098258725,
+      "units": "in"
+    },
+    "airframe_state": {
+      "blockId": "GBI airframe | simplified section placement v38",
+      "buildState": "e_OK",
+      "pauseState": "e_UNPAUSED"
+    },
+    "seconds": 45.141079699998954,
+    "recipe_sha256": "35e3d8b70bd09c06cf29897b41eecde7edc2caaef4f3b2f0865f3e998c870e16",
+    "notebook_sha256": "02054e2bd026a40ba1f2051fe7f27dd05a1c4984820f36945987ddc5b2b54523"
+  },
+  "cpacs": {
+    "baseline": {
+      "profiles": 31,
+      "max_decoded_point_error_m": 8.95090418262362e-16,
+      "uids_resolved": true
+    },
+    "changed": {
+      "profiles": 31,
+      "max_decoded_point_error_m": 8.95090418262362e-16,
+      "uids_resolved": true
+    }
+  },
+  "notebooks": {
+    "baseline": {
+      "blocks_collapsed": 7923,
+      "sections_collapsed": 15,
+      "non_ui_chunks_unchanged": true,
+      "sha256": "96825a6d91c381ff417e637e47eccd8f8560eeea26e7dc064222500c1ca6ef4e"
+    },
+    "changed": {
+      "blocks_collapsed": 7923,
+      "sections_collapsed": 15,
+      "non_ui_chunks_unchanged": true,
+      "sha256": "ae28c313735eda6af136a518d8875e175ef0ef5f0d413d2baec90e5f77c63b3b"
+    }
+  },
+  "contract_checks": {
+    "valid_request": {
+      "baseline_tip_twist_deg": 2.0,
+      "tip_twist_deg": 4.0,
+      "source_sha256": "44acc807b70ef83ad130c73cbe5957843fe9ff194b3391dc7fa8f805cfaae7a5",
+      "baseline_xml_sha256": "21abbb195c67c3c5f64b9f052f9823dccfe073ca97d124af70b694eb07c98bc1",
+      "request_xml_sha256": "1cd7ef6627c413e46af20346df68a545660038e1e863c22669a050308233bfb3"
+    },
+    "rejected_edits": [
+      "geometry",
+      "nan",
+      "unsupported_value"
+    ]
+  },
+  "source_preservation": {
+    "retained_copy_sha256": "44acc807b70ef83ad130c73cbe5957843fe9ff194b3391dc7fa8f805cfaae7a5",
+    "original_checked": true,
+    "original_sha256": "44acc807b70ef83ad130c73cbe5957843fe9ff194b3391dc7fa8f805cfaae7a5"
+  },
+  "only_tip_twist_changed_in_recipe": true,
+  "twist_transition": {
+    "reference_tip_deg": 2,
+    "construction_start_m": 0.3055,
+    "construction_end_m": 1.0,
+    "samples": 11001,
+    "formula_error_rad": {
+      "baseline": 0.0,
+      "changed": 6.938893903907228e-18
+    },
+    "continuity": "The added-twist gate and its first three derivatives match at both endpoints.",
+    "scope": "Scalar construction check; no global surface-fairness claim."
+  },
+  "section_bounds_comparison": [
+    {
+      "axis": "y",
+      "station_m": 0.0,
+      "baseline_bounds_m": [
+        [
+          0.073748,
+          0.0,
+          -0.364857
+        ],
+        [
+          7.4887,
+          0.0,
+          0.5765739999999999
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          0.073748,
+          0.0,
+          -0.364857
+        ],
+        [
+          7.4887,
+          0.0,
+          0.5765739999999999
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "y",
+      "station_m": 0.1,
+      "baseline_bounds_m": [
+        [
+          0.173999,
+          0.1,
+          -0.36189899999999997
+        ],
+        [
+          7.449844,
+          0.1,
+          0.564518
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          0.173999,
+          0.1,
+          -0.36189899999999997
+        ],
+        [
+          7.449844,
+          0.1,
+          0.564518
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "y",
+      "station_m": 0.2,
+      "baseline_bounds_m": [
+        [
+          0.386196,
+          0.2,
+          -0.350525
+        ],
+        [
+          7.344825999999999,
+          0.2,
+          0.524003
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          0.386196,
+          0.2,
+          -0.350525
+        ],
+        [
+          7.344825999999999,
+          0.2,
+          0.524003
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "y",
+      "station_m": 0.35,
+      "baseline_bounds_m": [
+        [
+          0.9061469999999999,
+          0.35,
+          -0.314887
+        ],
+        [
+          7.217458,
+          0.35,
+          0.418736
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          0.9061319999999999,
+          0.35,
+          -0.314895
+        ],
+        [
+          7.217458,
+          0.35,
+          0.418728
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.014999999999987246
+    },
+    {
+      "axis": "y",
+      "station_m": 0.5,
+      "baseline_bounds_m": [
+        [
+          1.5359639999999999,
+          0.5,
+          -0.269698
+        ],
+        [
+          7.091593,
+          0.5,
+          0.314148
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          1.536066,
+          0.5,
+          -0.271949
+        ],
+        [
+          7.091593,
+          0.5,
+          0.312224
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 2.251000000000003
+    },
+    {
+      "axis": "y",
+      "station_m": 0.7,
+      "baseline_bounds_m": [
+        [
+          2.410039,
+          0.7,
+          -0.206676
+        ],
+        [
+          6.923773,
+          0.7,
+          0.22075
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          2.4103209999999997,
+          0.7,
+          -0.22222699999999998
+        ],
+        [
+          6.923773,
+          0.7,
+          0.20796499999999998
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 15.55099999999998
+    },
+    {
+      "axis": "y",
+      "station_m": 0.9,
+      "baseline_bounds_m": [
+        [
+          2.973969,
+          0.9,
+          -0.150199
+        ],
+        [
+          6.755952,
+          0.9,
+          0.183577
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          2.973824,
+          0.9,
+          -0.180926
+        ],
+        [
+          6.755952,
+          0.9,
+          0.163347
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 30.727000000000004
+    },
+    {
+      "axis": "y",
+      "station_m": 1.1,
+      "baseline_bounds_m": [
+        [
+          3.3201959999999997,
+          1.1,
+          -0.105476
+        ],
+        [
+          6.615508999999999,
+          1.1,
+          0.17263099999999998
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          3.320354,
+          1.1,
+          -0.13849999999999998
+        ],
+        [
+          6.615508999999999,
+          1.1,
+          0.150415
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 33.02399999999999
+    },
+    {
+      "axis": "y",
+      "station_m": 1.3,
+      "baseline_bounds_m": [
+        [
+          3.6665799999999997,
+          1.3,
+          -0.059796999999999996
+        ],
+        [
+          6.62616,
+          1.3,
+          0.16988799999999998
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          3.6665699999999997,
+          1.3,
+          -0.096772
+        ],
+        [
+          6.6261589999999995,
+          1.3,
+          0.14585499999999998
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 36.975
+    },
+    {
+      "axis": "y",
+      "station_m": 1.5,
+      "baseline_bounds_m": [
+        [
+          4.0129269999999995,
+          1.5,
+          -0.02085
+        ],
+        [
+          6.661426,
+          1.5,
+          0.170062
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          4.012913,
+          1.5,
+          -0.068004
+        ],
+        [
+          6.661426,
+          1.5,
+          0.145374
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 47.153999999999996
+    },
+    {
+      "axis": "y",
+      "station_m": 1.7,
+      "baseline_bounds_m": [
+        [
+          4.359202,
+          1.7,
+          -0.004836
+        ],
+        [
+          6.696692,
+          1.7,
+          0.17603
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          4.359198,
+          1.7,
+          -0.054223999999999994
+        ],
+        [
+          6.696692,
+          1.7,
+          0.151424
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 49.38799999999999
+    },
+    {
+      "axis": "y",
+      "station_m": 1.9,
+      "baseline_bounds_m": [
+        [
+          4.705458999999999,
+          1.9,
+          0.009027
+        ],
+        [
+          6.731955999999999,
+          1.9,
+          0.18117799999999998
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          4.705474,
+          1.9,
+          -0.039171
+        ],
+        [
+          6.731955,
+          1.9,
+          0.157274
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 48.198
+    },
+    {
+      "axis": "y",
+      "station_m": 2.1,
+      "baseline_bounds_m": [
+        [
+          5.051711,
+          2.1,
+          0.023282999999999998
+        ],
+        [
+          6.767221999999999,
+          2.1,
+          0.182143
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          5.0517199999999995,
+          2.1,
+          -0.022067999999999997
+        ],
+        [
+          6.767221999999999,
+          2.1,
+          0.15967299999999998
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 45.35099999999999
+    },
+    {
+      "axis": "y",
+      "station_m": 2.3,
+      "baseline_bounds_m": [
+        [
+          5.3979669999999995,
+          2.3,
+          0.038315999999999996
+        ],
+        [
+          6.802487999999999,
+          2.3,
+          0.177678
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          5.397965,
+          2.3,
+          -0.00246
+        ],
+        [
+          6.802487999999999,
+          2.3,
+          0.157445
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 40.775999999999996
+    },
+    {
+      "axis": "y",
+      "station_m": 2.45,
+      "baseline_bounds_m": [
+        [
+          5.657665,
+          2.45,
+          0.050293
+        ],
+        [
+          6.828936,
+          2.45,
+          0.170653
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          5.657696,
+          2.45,
+          0.014039
+        ],
+        [
+          6.8289349999999995,
+          2.45,
+          0.15265399999999998
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 36.254
+    },
+    {
+      "axis": "y",
+      "station_m": 2.56,
+      "baseline_bounds_m": [
+        [
+          5.8480989999999995,
+          2.56,
+          0.059564
+        ],
+        [
+          6.848332999999999,
+          2.56,
+          0.163634
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          5.848133,
+          2.56,
+          0.027260999999999997
+        ],
+        [
+          6.848332999999999,
+          2.56,
+          0.14707299999999998
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 32.303
+    },
+    {
+      "axis": "y",
+      "station_m": 2.65,
+      "baseline_bounds_m": [
+        [
+          6.003969,
+          2.65,
+          0.067407
+        ],
+        [
+          6.511788999999999,
+          2.65,
+          0.137955
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.003896999999999,
+          2.65,
+          0.038679
+        ],
+        [
+          6.509759,
+          2.65,
+          0.12383
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 28.727999999999998
+    },
+    {
+      "axis": "y",
+      "station_m": 2.7,
+      "baseline_bounds_m": [
+        [
+          6.090367,
+          2.7,
+          0.070213
+        ],
+        [
+          6.325424,
+          2.7,
+          0.12670299999999998
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.09018,
+          2.7,
+          0.043289999999999995
+        ],
+        [
+          6.323967,
+          2.7,
+          0.10778599999999999
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 26.923000000000002
+    },
+    {
+      "axis": "y",
+      "station_m": 2.73,
+      "baseline_bounds_m": [
+        [
+          6.142274,
+          2.73,
+          0.071856
+        ],
+        [
+          6.214144,
+          2.73,
+          0.105849
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.142053,
+          2.73,
+          0.046253999999999997
+        ],
+        [
+          6.213582,
+          2.73,
+          0.08268299999999999
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 25.602000000000007
+    },
+    {
+      "axis": "y",
+      "station_m": 2.742,
+      "baseline_bounds_m": [
+        [
+          6.163048,
+          2.742,
+          0.07289799999999999
+        ],
+        [
+          6.16996,
+          2.742,
+          0.088158
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.162826,
+          2.742,
+          0.047836
+        ],
+        [
+          6.1700859999999995,
+          2.742,
+          0.063299
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 25.061999999999994
+    },
+    {
+      "axis": "z",
+      "station_m": 0.0,
+      "baseline_bounds_m": [
+        [
+          5.301451,
+          -0.062386,
+          0.0
+        ],
+        [
+          7.188943,
+          0.062386,
+          0.0
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          5.301451,
+          -0.062386,
+          0.0
+        ],
+        [
+          7.188943,
+          0.062386,
+          0.0
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "z",
+      "station_m": 0.2,
+      "baseline_bounds_m": [
+        [
+          5.538383,
+          -0.05561,
+          0.2
+        ],
+        [
+          7.187577,
+          0.05561,
+          0.2
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          5.538383,
+          -0.05561,
+          0.2
+        ],
+        [
+          7.187577,
+          0.05561,
+          0.2
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "z",
+      "station_m": 0.4,
+      "baseline_bounds_m": [
+        [
+          5.774602,
+          -0.048888999999999995,
+          0.4
+        ],
+        [
+          7.186210999999999,
+          0.048888999999999995,
+          0.4
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          5.774602,
+          -0.048888999999999995,
+          0.4
+        ],
+        [
+          7.186210999999999,
+          0.048888999999999995,
+          0.4
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "z",
+      "station_m": 0.6,
+      "baseline_bounds_m": [
+        [
+          6.009853,
+          -0.042251,
+          0.6
+        ],
+        [
+          7.184844999999999,
+          0.042251,
+          0.6
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.009853,
+          -0.042251,
+          0.6
+        ],
+        [
+          7.184844999999999,
+          0.042251,
+          0.6
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "z",
+      "station_m": 0.8,
+      "baseline_bounds_m": [
+        [
+          6.243789,
+          -0.035751,
+          0.8
+        ],
+        [
+          7.183478,
+          0.035751,
+          0.8
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.243789,
+          -0.035751,
+          0.8
+        ],
+        [
+          7.183478,
+          0.035751,
+          0.8
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "z",
+      "station_m": 0.95,
+      "baseline_bounds_m": [
+        [
+          6.418149,
+          -0.031031,
+          0.95
+        ],
+        [
+          7.182453,
+          0.031031,
+          0.95
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.418149,
+          -0.031031,
+          0.95
+        ],
+        [
+          7.182453,
+          0.031031,
+          0.95
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "z",
+      "station_m": 0.992,
+      "baseline_bounds_m": [
+        [
+          6.4667889999999995,
+          -0.029747,
+          0.992
+        ],
+        [
+          7.182167,
+          0.029747,
+          0.992
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.4667889999999995,
+          -0.029747,
+          0.992
+        ],
+        [
+          7.182167,
+          0.029747,
+          0.992
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "z",
+      "station_m": 1.04,
+      "baseline_bounds_m": [
+        [
+          6.522291,
+          -0.028305999999999998,
+          1.04
+        ],
+        [
+          7.023082,
+          0.028305999999999998,
+          1.04
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.522291,
+          -0.028305999999999998,
+          1.04
+        ],
+        [
+          7.023082,
+          0.028305999999999998,
+          1.04
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "z",
+      "station_m": 1.09,
+      "baseline_bounds_m": [
+        [
+          6.580029,
+          -0.026841999999999998,
+          1.09
+        ],
+        [
+          6.856414999999999,
+          0.026841999999999998,
+          1.09
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.580029,
+          -0.026841999999999998,
+          1.09
+        ],
+        [
+          6.856414999999999,
+          0.026841999999999998,
+          1.09
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "z",
+      "station_m": 1.13,
+      "baseline_bounds_m": [
+        [
+          6.626193,
+          -0.02303,
+          1.13
+        ],
+        [
+          6.723082,
+          0.02303,
+          1.13
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.626193,
+          -0.02303,
+          1.13
+        ],
+        [
+          6.723082,
+          0.02303,
+          1.13
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    },
+    {
+      "axis": "z",
+      "station_m": 1.151,
+      "baseline_bounds_m": [
+        [
+          6.650434,
+          -0.004602,
+          1.151
+        ],
+        [
+          6.6530819999999995,
+          0.004602,
+          1.151
+        ]
+      ],
+      "changed_bounds_m": [
+        [
+          6.650434,
+          -0.004602,
+          1.151
+        ],
+        [
+          6.6530819999999995,
+          0.004602,
+          1.151
+        ]
+      ],
+      "max_bounds_coordinate_change_mm": 0.0
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:ntop:gbi:cpacs:1" xmlns:n="urn:ntop:gbi:cpacs:1" elementFormDefault="qualified">
+  <xs:element name="bridge">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sourceSha256" type="xs:string"/>
+        <xs:element name="nativeRecipeSha256" type="xs:string"/>
+        <xs:element name="geometryTipTwistDeg" type="xs:double"/>
+        <xs:element name="tipTwistDeg" type="xs:double"/>
+        <xs:element name="samplingFeatureM" type="xs:double"/>
+        <xs:element name="geometryScope" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:string" use="required"/>
+      <xs:attribute name="nativeVariable" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

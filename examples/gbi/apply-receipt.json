@@ -1,0 +1,33 @@
+{
+  "from_cpacs": "request.xml",
+  "request_sha256": "1cd7ef6627c413e46af20346df68a545660038e1e863c22669a050308233bfb3",
+  "parameter": "Tip twist",
+  "before": {
+    "type": "real",
+    "value": 2.0,
+    "units": "deg"
+  },
+  "after": {
+    "type": "real",
+    "value": 4.0,
+    "units": "deg"
+  },
+  "field_before": {
+    "type": "real",
+    "value": 4.3425703713736275e-05,
+    "units": "in"
+  },
+  "field_after": {
+    "type": "real",
+    "value": 1.4949270098258725,
+    "units": "in"
+  },
+  "airframe_state": {
+    "blockId": "GBI airframe | simplified section placement v38",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "seconds": 45.141079699998954,
+  "recipe_sha256": "35e3d8b70bd09c06cf29897b41eecde7edc2caaef4f3b2f0865f3e998c870e16",
+  "notebook_sha256": "02054e2bd026a40ba1f2051fe7f27dd05a1c4984820f36945987ddc5b2b54523"
+}

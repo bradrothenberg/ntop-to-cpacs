@@ -1,0 +1,6 @@
+{
+  "point_m": [5.337662, 1.9, 0.167383],
+  "source_sha256": "44acc807b70ef83ad130c73cbe5957843fe9ff194b3391dc7fa8f805cfaae7a5",
+  "source_section": "Native baseline wing section at Y = 1.9 m",
+  "purpose": "An outer-wing upper-skin point selected from measured baseline sections. The API evaluates a field witness here, not a surface-distance metric."
+}

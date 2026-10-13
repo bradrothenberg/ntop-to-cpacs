@@ -1,0 +1,25 @@
+{
+  "tip_twist": {
+    "type": "real",
+    "value": 2.0,
+    "units": "deg"
+  },
+  "field": {
+    "type": "real",
+    "value": 4.3425703713736275e-05,
+    "units": "in"
+  },
+  "point_m": [
+    5.337662,
+    1.9,
+    0.167383
+  ],
+  "airframe_state": {
+    "blockId": "GBI airframe | simplified section placement v38",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "seconds": 14.348492999997688,
+  "recipe_sha256": "9c2bc3c6d758b8047dca6659bf5b454532ea4c5f578a14665780f4d851e6e970",
+  "notebook_sha256": "583aa49caabccea84ec296f416ef19829b54a82ac6c7ee47479969e015ffe9db"
+}

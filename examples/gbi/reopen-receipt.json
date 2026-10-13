@@ -1,0 +1,15 @@
+{
+  "path": "GBI-changed.ntop",
+  "sha256": "ae28c313735eda6af136a518d8875e175ef0ef5f0d413d2baec90e5f77c63b3b",
+  "tip_twist": {
+    "type": "real",
+    "value": 4.0,
+    "units": "deg"
+  },
+  "airframe_state": {
+    "blockId": "GBI airframe | simplified section placement v38",
+    "buildState": "e_OK",
+    "pauseState": "e_UNPAUSED"
+  },
+  "seconds": 25.53770370001439
+}

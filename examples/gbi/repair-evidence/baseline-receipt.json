@@ -1,0 +1,12 @@
+{
+  "source": "baseline-working.ntop",
+  "source_sha256": "2abe549fb0ea2a1c7264ed5f7ac2c73c8496325c0c0ab20fda2a5e52cf7823ce",
+  "engine_sha256": "16ddee545fbf712f60664e6d242c59e96b45966794e3c5ce8b4544c7377030b6",
+  "points": 288,
+  "fields": [
+    "placement",
+    "airframe"
+  ],
+  "seconds": 37.525020300003234,
+  "finite": true
+}

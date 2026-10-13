@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+# Native saves, measurements, and receipts are bound by exact SHA256 values.
+/examples/** -text whitespace=blank-at-eol,space-before-tab,cr-at-eol
+/source/** -text
+/schema/cpacs_schema.xsd -text

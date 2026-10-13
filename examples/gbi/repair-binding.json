@@ -1,0 +1,7 @@
+{
+  "candidate_and_final_recipes_equal": true,
+  "candidate_recipe_sha256": "35e3d8b70bd09c06cf29897b41eecde7edc2caaef4f3b2f0865f3e998c870e16",
+  "final_recipe_sha256": "35e3d8b70bd09c06cf29897b41eecde7edc2caaef4f3b2f0865f3e998c870e16",
+  "baseline_contour_arrays_identical": true,
+  "baseline_contour_count": 31
+}
